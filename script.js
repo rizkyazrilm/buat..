@@ -16,29 +16,29 @@ vara[0] = new Vara(
   "https://rawcdn.githack.com/akzhy/Vara/ed6ab92fdf196596266ae76867c415fa659eb348/fonts/Satisfy/SatisfySL.json",
   [
     {
-      text: "  ",
+      text: "1",
       textAlign: "right",
       y: 20,
       x: -30,
       delay: 500,
-      duration: 1500,
+      duration: 500,
       fontSize: fontSize.small
     },
     {
-      text: "Start the year with something cool.",
+      text: "Spending each day of the year,",
       y: 40,
       x: posX,
       duration: 4000
     },
     {
-      text: "Like with a library,",
+      text: "We've got so familiar,",
       id: "sphinx",
       x: posX,
       delay: 1000,
       duration: 4500
     },
     {
-      text: "..... that can animate text writing",
+      text: ".....if you think about it, it'll be over in no time, and that's life.",
       id: "end",
       color: "#3f51b5",
       delay: 1000,
@@ -57,22 +57,22 @@ vara[1] = new Vara(
   "https://rawcdn.githack.com/akzhy/Vara/ed6ab92fdf196596266ae76867c415fa659eb348/fonts/Satisfy/SatisfySL.json",
   [
     {
-      text: "  ",
+      text: "2",
       textAlign: "right",
       delay: 500,
       y: 20,
       x: -30,
-      duration: 1500,
+      duration: 500,
       fontSize: fontSize.small
     },
     {
-      text: "Try to create something else.",
+      text: "You think we're small and not worth to mention??",
       y: 40,
       x: posX,
       duration: 4000
     },
     {
-      text: "Like a diary or a todo list.",
+      text: "But I'm sure we're taller in other dimension",
       y: 40,
       x: posX,
       duration: 3500
@@ -89,28 +89,28 @@ vara[2] = new Vara(
   "https://rawcdn.githack.com/akzhy/Vara/ed6ab92fdf196596266ae76867c415fa659eb348/fonts/Satisfy/SatisfySL.json",
   [
     {
-      text: "  ",
+      text: "3",
       textAlign: "right",
       delay: 500,
       y: 20,
       x: -30,
-      duration: 1500,
+      duration: 500,
       fontSize: fontSize.small
     },
     {
-      text: "Creating a Diary.",
+      text: "Less morose and more present ,",
       y: 40,
       x: posX,
       duration: 4000
     },
     {
-      text: "View the library on,",
+      text: "Dwell on my gift for a second, a moment",
       y: 20,
       x: posX,
       duration: 3500
     },
     {
-      text: "Github.",
+      text: "Before I die, you ought to know It'd be in your arms",
       y: 10,
       color: "#3f51b5",
       id: "link",
@@ -167,12 +167,5 @@ vara[2].ready(function() {
       .parent(".paper")
       .removeClass("open");
   });
-
-var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-if (!isChrome){
-    $('#iframeAudio').remove()
-}
-else {
-    $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
-}
+  
 });
