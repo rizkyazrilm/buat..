@@ -33,7 +33,7 @@ vara[0] = new Vara(
   ],
   {
     strokeWidth: 2,
-    fontSize: fontSize.medium,
+    fontSize: fontSize.small,
     autoAnimation: false
   }
 );
@@ -72,7 +72,7 @@ vara[1] = new Vara(
   ],
   {
     strokeWidth: 2,
-    fontSize: fontSize.medium,
+    fontSize: fontSize.small,
     autoAnimation: false
   }
 );
@@ -111,7 +111,7 @@ vara[2] = new Vara(
   ],
   {
     strokeWidth: 2,
-    fontSize: fontSize.medium,
+    fontSize: fontSize.small,
     autoAnimation: false
   }
 );
