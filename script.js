@@ -25,30 +25,15 @@ vara[0] = new Vara(
       fontSize: fontSize.small
     },
     {
-      text: "Spending each day of the year,",
-      y: 40,
+      text: "In a way, you are poetry material,        You are full of cloudy subtleties I'm willing to spend a lifetime figuring out. Words burst in your essence and you carry their dust in the pores of your ethereal individuality.",
+      y: 30,
       x: posX,
-      duration: 4000
+      duration: 25000
     },
-    {
-      text: "We've got so familiar,",
-      id: "sphinx",
-      x: posX,
-      delay: 1000,
-      duration: 4500
-    },
-    {
-      text: ".....if you think about it, it'll be over in no time, and that's life.",
-      id: "end",
-      color: "#3f51b5",
-      delay: 1000,
-      x: posX,
-      duration: 4500
-    }
   ],
   {
     strokeWidth: 2,
-    fontSize: fontSize.medium,
+    fontSize: fontSize.small,
     autoAnimation: false
   }
 );
@@ -66,21 +51,28 @@ vara[1] = new Vara(
       fontSize: fontSize.small
     },
     {
-      text: "You think we're small and not worth to mention??",
-      y: 40,
+      text: "I sink into your eyes whenever I'm looking at you.",
+      y: 25,
       x: posX,
-      duration: 4000
+      duration: 7000
     },
     {
-      text: "But I'm sure we're taller in other dimension",
+      text: "And I close my eyes to gaze into those depths, and am almost engulfed in you.",
       y: 40,
       x: posX,
-      duration: 3500
+      duration: 7000
+    },
+    {
+      text: "I can’t feel a thing, All mournful petal storms are dancing inside the very private spring of my head.",
+      y: 40,
+      x: posX,
+      duration: 7000
     }
+    
   ],
   {
     strokeWidth: 2,
-    fontSize: fontSize.medium,
+    fontSize: fontSize.small,
     autoAnimation: false
   }
 );
@@ -98,29 +90,28 @@ vara[2] = new Vara(
       fontSize: fontSize.small
     },
     {
-      text: "Less morose and more present ,",
+      text: "spending each day of the year. honest, we've got so familiar.",
+      y: 25,
+      x: posX,
+      duration: 10000
+    },
+    {
+      text: "On this day, as you celebrate your own existence, know that you are cherished for all that you are.",
       y: 40,
       x: posX,
-      duration: 4000
+      duration: 15000
     },
     {
-      text: "Dwell on my gift for a second, a moment",
-      y: 20,
+      text: "I offer my heartfelt felicitations, as someone profoundly touched by your presence in this bewildering world. Happy birthday, my dear. ",
+      y: 40,
       x: posX,
-      duration: 3500
-    },
-    {
-      text: "Before I die, you ought to know It'd be in your arms",
-      y: 10,
-      color: "#3f51b5",
-      id: "link",
-      x: posX,
-      duration: 1500
+      duration: 15000
     }
+
   ],
   {
     strokeWidth: 2,
-    fontSize: fontSize.medium,
+    fontSize: fontSize.small,
     autoAnimation: false
   }
 );
