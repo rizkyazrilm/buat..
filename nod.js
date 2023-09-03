@@ -14,7 +14,7 @@ const createWord = (text, index) => {
 
 const addWord = (text, index) => subtitle.appendChild(createWord(text, index));
 const createSubtitle = text => text.split("").map(addWord);
-createSubtitle("happy  birthday yeuwww,  you're  17  now  hewhwehewi wish all the better  things will came in to your life.you've been doing great       last year, soo keep itupp!! and be the best versionof yourself okkayy!!! ");
+createSubtitle("happy  birthday yeuwww,  you're  17  now  hewhwehewMay your journey through the inexplicable be met   with moments of clarity    and joy. you've been doing great last year, soo keep itupp!! and be the best versionof yourself okkayy!!! ");
 
 var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
 if (!isChrome){
