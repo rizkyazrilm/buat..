@@ -102,7 +102,7 @@ vara[2] = new Vara(
       duration: 15000
     },
     {
-      text: "I offer my felicitations, as someone profoundly touched by your presence in this bewildering world. Happy birthday, my dear. ",
+      text: "Ioffermy felicitations, as someone profoundly touched by your presence in this bewildering world. Happy birthday, my dear. ",
       y: 15,
       x: posX,
       duration: 15000
