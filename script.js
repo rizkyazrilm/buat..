@@ -22,7 +22,7 @@ vara[0] = new Vara(
       x: -30,
       delay: 500,
       duration: 500,
-      fontSize: fontSize.small
+      fontSize: fontSize.medium
     },
     {
       text: "In a way, you are poetry material,        You are full of cloudy subtleties I'm willing to spend a lifetime figuring out. Words burst in your essence and you carry their dust in the pores of your ethereal individuality.",
@@ -33,7 +33,7 @@ vara[0] = new Vara(
   ],
   {
     strokeWidth: 2,
-    fontSize: fontSize.small,
+    fontSize: fontSize.medium,
     autoAnimation: false
   }
 );
@@ -48,11 +48,11 @@ vara[1] = new Vara(
       y: 20,
       x: -30,
       duration: 500,
-      fontSize: fontSize.small
+      fontSize: fontSize.medium
     },
     {
       text: "I sink into your eyes whenever I'm looking at you.",
-      y: 25,
+      y: 20,
       x: posX,
       duration: 7000
     },
@@ -72,7 +72,7 @@ vara[1] = new Vara(
   ],
   {
     strokeWidth: 2,
-    fontSize: fontSize.small,
+    fontSize: fontSize.medium,
     autoAnimation: false
   }
 );
@@ -87,17 +87,17 @@ vara[2] = new Vara(
       y: 20,
       x: -30,
       duration: 500,
-      fontSize: fontSize.small
+      fontSize: fontSize.medium
     },
     {
-      text: "spending each day of the year. honest, we've got so familiar.",
+      text: "Spending each day of the year. honest, we've got so familiar.",
       y: 25,
       x: posX,
       duration: 10000
     },
     {
       text: "On this day, as you celebrate your own existence, know that you are cherished for all that you are.",
-      y: 40,
+      y: 10,
       x: posX,
       duration: 15000
     },
@@ -111,7 +111,7 @@ vara[2] = new Vara(
   ],
   {
     strokeWidth: 2,
-    fontSize: fontSize.small,
+    fontSize: fontSize.medium,
     autoAnimation: false
   }
 );
