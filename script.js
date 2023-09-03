@@ -63,7 +63,7 @@ vara[1] = new Vara(
       duration: 7000
     },
     {
-      text: "I can’t feel a thing, All mournful petal storms are dancing inside the very private spring of my head.",
+      text: "I can't feel a thing, All mournful petal storms are dancing inside the very private spring of my head.",
       y: 40,
       x: posX,
       duration: 7000
