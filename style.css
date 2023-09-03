@@ -37,20 +37,18 @@ body {
   color: white; 
 }
 
-.card:hover > .card-content > .card-subtitle > .card-subtitle-word {  
+.card:hover > .card-content > .card-subtitle > .card-subtitle-word {
   opacity: 1;
   transform: translateY(0%);
   transition: opacity 0ms, transform 200ms cubic-bezier(.90, .06, .15, .90);
+  -webkit-transition: opacity 0ms, transform 200ms cubic-bezier(.90, .06, .15, .90);
+  -moz-transition: opacity 0ms, transform 200ms cubic-bezier(.90, .06, .15, .90);
+  -ms-transition: opacity 0ms, transform 200ms cubic-bezier(.90, .06, .15, .90);
+  -o-transition: opacity 0ms, transform 200ms cubic-bezier(.90, .06, .15, .90);
 }
 
 .card:before {
-  background: linear-gradient(
-    130deg, 
-    transparent 0% 33%, 
-    var(--g1) 66%, 
-    var(--g2) 83.5%, 
-    var(--g3) 100%
-  );
+  background: linear-gradient(    130deg,     transparent 0% 33%,     var(--g1) 66%,     var(--g2) 83.5%,     var(--g3) 100%  );
   background-position: 0% 0%;
   background-size: 300% 300%;
   content: "";
@@ -62,21 +60,26 @@ body {
   transition: background-position 350ms ease, transform 350ms ease;
   width: 100%;
   z-index: 1;
+  -webkit-transition: background-position 350ms ease, transform 350ms ease;
+  -moz-transition: background-position 350ms ease, transform 350ms ease;
+  -ms-transition: background-position 350ms ease, transform 350ms ease;
+  -o-transition: background-position 350ms ease, transform 350ms ease;
 }
 
 .card-content {
-  background-image: radial-gradient(
-    rgba(255, 255, 255, 0.2) 8%, 
-    transparent 8%
-  );
+  background-image: radial-gradient(    rgba(255, 255, 255, 0.2) 8%,     transparent 8%  );
   background-position: 0% 0%;
   background-size: 5vmin 5vmin;
   height: calc(100% - 10vmin);
   padding: 5vmin;
   position: relative;
-  transition: background-position 350ms ease;
+  transition: background-position 500ms ease;
   width: calc(100% - 10vmin);
   z-index: 2;
+  -webkit-transition: background-position 500ms ease;
+  -moz-transition: background-position 500ms ease;
+  -ms-transition: background-position 500ms ease;
+  -o-transition: background-position 500ms ease;
 }
 
 .card-title,
@@ -141,6 +144,7 @@ body {
 #source-link > i {
   color: rgb(94, 106, 210);
 }
+
 
 #yt-link {  
   top: 10px;
